@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6E03F3431B3850F600BB2154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03F3421B3850F600BB2154 /* AppDelegate.swift */; };
-		6E03F3451B3850F600BB2154 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E03F3441B3850F600BB2154 /* GameScene.sks */; };
 		6E03F3471B3850F600BB2154 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03F3461B3850F600BB2154 /* GameScene.swift */; };
 		6E03F3491B3850F600BB2154 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03F3481B3850F600BB2154 /* GameViewController.swift */; };
 		6E03F34C1B3850F600BB2154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E03F34A1B3850F600BB2154 /* Main.storyboard */; };
@@ -32,7 +31,6 @@
 		6E03F33D1B3850F600BB2154 /* gameswift1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameswift1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E03F3411B3850F600BB2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E03F3421B3850F600BB2154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E03F3441B3850F600BB2154 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		6E03F3461B3850F600BB2154 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6E03F3481B3850F600BB2154 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		6E03F34B1B3850F600BB2154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 			children = (
 				6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */,
 				6E03F3421B3850F600BB2154 /* AppDelegate.swift */,
-				6E03F3441B3850F600BB2154 /* GameScene.sks */,
 				6E03F3461B3850F600BB2154 /* GameScene.swift */,
 				6E03F3481B3850F600BB2154 /* GameViewController.swift */,
 				6E03F34A1B3850F600BB2154 /* Main.storyboard */,
@@ -203,7 +200,6 @@
 			files = (
 				6E03F3511B3850F600BB2154 /* LaunchScreen.xib in Resources */,
 				6E03F34E1B3850F600BB2154 /* Images.xcassets in Resources */,
-				6E03F3451B3850F600BB2154 /* GameScene.sks in Resources */,
 				6E03F34C1B3850F600BB2154 /* Main.storyboard in Resources */,
 				6EDD4EA21B3FD5AF00A30393 /* Sprites.atlas in Resources */,
 			);
@@ -357,6 +353,7 @@
 				INFOPLIST_FILE = gameswift1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -367,6 +364,7 @@
 				INFOPLIST_FILE = gameswift1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
