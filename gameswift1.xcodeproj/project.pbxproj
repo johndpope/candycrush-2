@@ -15,6 +15,7 @@
 		6E03F34E1B3850F600BB2154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E03F34D1B3850F600BB2154 /* Images.xcassets */; };
 		6E03F3511B3850F600BB2154 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E03F34F1B3850F600BB2154 /* LaunchScreen.xib */; };
 		6E03F35D1B3850F600BB2154 /* gameswift1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03F35C1B3850F600BB2154 /* gameswift1Tests.swift */; };
+		6EDD4EA21B3FD5AF00A30393 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6E03F3561B3850F600BB2154 /* gameswift1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameswift1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E03F35B1B3850F600BB2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E03F35C1B3850F600BB2154 /* gameswift1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameswift1Tests.swift; sourceTree = "<group>"; };
+		6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		6E03F33F1B3850F600BB2154 /* gameswift1 */ = {
 			isa = PBXGroup;
 			children = (
+				6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */,
 				6E03F3421B3850F600BB2154 /* AppDelegate.swift */,
 				6E03F3441B3850F600BB2154 /* GameScene.sks */,
 				6E03F3461B3850F600BB2154 /* GameScene.swift */,
@@ -202,6 +205,7 @@
 				6E03F34E1B3850F600BB2154 /* Images.xcassets in Resources */,
 				6E03F3451B3850F600BB2154 /* GameScene.sks in Resources */,
 				6E03F34C1B3850F600BB2154 /* Main.storyboard in Resources */,
+				6EDD4EA21B3FD5AF00A30393 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				6E03F3621B3850F600BB2154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E03F3631B3850F600BB2154 /* Build configuration list for PBXNativeTarget "gameswift1Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				6E03F3651B3850F600BB2154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
