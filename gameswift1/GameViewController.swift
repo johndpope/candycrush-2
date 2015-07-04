@@ -4,6 +4,7 @@ import SpriteKit
 class GameViewController: UIViewController {
     var scene: GameScene!
     var level: Level!
+   
     
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -53,6 +54,5 @@ class GameViewController: UIViewController {
             self.view.userInteractionEnabled = true
         }
     }
-
-    
+       
 }
