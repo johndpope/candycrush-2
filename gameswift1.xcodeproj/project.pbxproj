@@ -25,6 +25,7 @@
 		6EDD4EB31B40442C00A30393 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD4EAE1B40442C00A30393 /* Level_4.json */; };
 		6EDD4EB51B40446100A30393 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD4EB41B40446100A30393 /* Tile.swift */; };
 		6EDD4EB71B4044BA00A30393 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD4EB61B4044BA00A30393 /* Extensions.swift */; };
+		6EDE6A171B48224500BB9291 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE6A161B48224500BB9291 /* Swap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		6EDD4EAE1B40442C00A30393 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		6EDD4EB41B40446100A30393 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		6EDD4EB61B4044BA00A30393 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6EDE6A161B48224500BB9291 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */,
 				6E03F3421B3850F600BB2154 /* AppDelegate.swift */,
 				6EDD4EA31B3FDF1D00A30393 /* Cookie.swift */,
+				6EDE6A161B48224500BB9291 /* Swap.swift */,
 				6E03F3461B3850F600BB2154 /* GameScene.swift */,
 				6EDD4EA71B40206200A30393 /* Level.swift */,
 				6EDD4EB41B40446100A30393 /* Tile.swift */,
@@ -270,6 +273,7 @@
 				6E03F3491B3850F600BB2154 /* GameViewController.swift in Sources */,
 				6E03F3431B3850F600BB2154 /* AppDelegate.swift in Sources */,
 				6EDD4EA61B401F9B00A30393 /* Array2D.swift in Sources */,
+				6EDE6A171B48224500BB9291 /* Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
