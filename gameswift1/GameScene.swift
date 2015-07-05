@@ -15,7 +15,11 @@ class GameScene: SKScene {
     
     var swipeHandler: ((Swap) -> ())?
     var selectionSprite = SKSpriteNode()
-    
+    let swapSound = SKAction.playSoundFileNamed("Chomp.wav", waitForCompletion: false)
+    let invalidSwapSound = SKAction.playSoundFileNamed("Error.wav", waitForCompletion: false)
+    let matchSound = SKAction.playSoundFileNamed("Ka-Ching.wav", waitForCompletion: false)
+    let fallingCookieSound = SKAction.playSoundFileNamed("Scrape.wav", waitForCompletion: false)
+    let addCookieSound = SKAction.playSoundFileNamed("Drip.wav", waitForCompletion: false)
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder) is not used in this app")
@@ -182,6 +186,7 @@ class GameScene: SKScene {
         let moveB = SKAction.moveTo(spriteA.position, duration: Duration)
         moveB.timingMode = .EaseOut
         spriteB.runAction(moveB)
+        runAction(swapSound)
     }
     
     
@@ -218,6 +223,7 @@ class GameScene: SKScene {
         
         spriteA.runAction(SKAction.sequence([moveA, moveB]), completion: completion)
         spriteB.runAction(SKAction.sequence([moveB, moveA]))
+        runAction(invalidSwapSound)
     }
     
     
