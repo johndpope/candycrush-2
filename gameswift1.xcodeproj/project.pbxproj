@@ -26,6 +26,12 @@
 		6EDD4EB51B40446100A30393 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD4EB41B40446100A30393 /* Tile.swift */; };
 		6EDD4EB71B4044BA00A30393 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD4EB61B4044BA00A30393 /* Extensions.swift */; };
 		6EDE6A171B48224500BB9291 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE6A161B48224500BB9291 /* Swap.swift */; };
+		6EDE6A1F1B48E85C00BB9291 /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE6A191B48E85C00BB9291 /* Chomp.wav */; };
+		6EDE6A201B48E85C00BB9291 /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE6A1A1B48E85C00BB9291 /* Drip.wav */; };
+		6EDE6A211B48E85C00BB9291 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE6A1B1B48E85C00BB9291 /* Error.wav */; };
+		6EDE6A221B48E85C00BB9291 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE6A1C1B48E85C00BB9291 /* Ka-Ching.wav */; };
+		6EDE6A231B48E85C00BB9291 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE6A1D1B48E85C00BB9291 /* Mining by Moonlight.mp3 */; };
+		6EDE6A241B48E85C00BB9291 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE6A1E1B48E85C00BB9291 /* Scrape.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,12 @@
 		6EDD4EB41B40446100A30393 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		6EDD4EB61B4044BA00A30393 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6EDE6A161B48224500BB9291 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		6EDE6A191B48E85C00BB9291 /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		6EDE6A1A1B48E85C00BB9291 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drip.wav; sourceTree = "<group>"; };
+		6EDE6A1B1B48E85C00BB9291 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		6EDE6A1C1B48E85C00BB9291 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
+		6EDE6A1D1B48E85C00BB9291 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
+		6EDE6A1E1B48E85C00BB9291 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 				6E03F3461B3850F600BB2154 /* GameScene.swift */,
 				6EDD4EA71B40206200A30393 /* Level.swift */,
 				6EDD4EB41B40446100A30393 /* Tile.swift */,
+				6EDE6A181B48E85C00BB9291 /* Sounds */,
 				6E03F3481B3850F600BB2154 /* GameViewController.swift */,
 				6EDD4EB61B4044BA00A30393 /* Extensions.swift */,
 				6EDD4EA51B401F9B00A30393 /* Array2D.swift */,
@@ -157,6 +170,19 @@
 				6EDD4EAE1B40442C00A30393 /* Level_4.json */,
 			);
 			path = Levels;
+			sourceTree = "<group>";
+		};
+		6EDE6A181B48E85C00BB9291 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6EDE6A191B48E85C00BB9291 /* Chomp.wav */,
+				6EDE6A1A1B48E85C00BB9291 /* Drip.wav */,
+				6EDE6A1B1B48E85C00BB9291 /* Error.wav */,
+				6EDE6A1C1B48E85C00BB9291 /* Ka-Ching.wav */,
+				6EDE6A1D1B48E85C00BB9291 /* Mining by Moonlight.mp3 */,
+				6EDE6A1E1B48E85C00BB9291 /* Scrape.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +266,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E03F3511B3850F600BB2154 /* LaunchScreen.xib in Resources */,
+				6EDE6A201B48E85C00BB9291 /* Drip.wav in Resources */,
 				6EDD4EB31B40442C00A30393 /* Level_4.json in Resources */,
+				6EDE6A211B48E85C00BB9291 /* Error.wav in Resources */,
 				6EDD4EB11B40442C00A30393 /* Level_2.json in Resources */,
+				6EDE6A241B48E85C00BB9291 /* Scrape.wav in Resources */,
 				6EDD4EAF1B40442C00A30393 /* Level_0.json in Resources */,
+				6EDE6A1F1B48E85C00BB9291 /* Chomp.wav in Resources */,
+				6EDE6A231B48E85C00BB9291 /* Mining by Moonlight.mp3 in Resources */,
 				6E03F34E1B3850F600BB2154 /* Images.xcassets in Resources */,
+				6EDE6A221B48E85C00BB9291 /* Ka-Ching.wav in Resources */,
 				6E03F34C1B3850F600BB2154 /* Main.storyboard in Resources */,
 				6EDD4EB01B40442C00A30393 /* Level_1.json in Resources */,
 				6EDD4EB21B40442C00A30393 /* Level_3.json in Resources */,
