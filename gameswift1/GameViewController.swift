@@ -36,6 +36,7 @@ class GameViewController: UIViewController {
         scene.addTiles()
         beginGame()
     }
+    
     func beginGame() {
         shuffle()
     }
@@ -50,15 +51,21 @@ class GameViewController: UIViewController {
         
         if level.isPossibleSwap(swap) {
             level.performSwap(swap)
-            scene.animateSwap(swap) {
-                self.view.userInteractionEnabled = true
-            }
+            scene.animateSwap(swap, completion: handleMatches);
+            //scene.animateSwap(swap) {
+               // self.view.userInteractionEnabled = true
+            //}
         } else {
             scene.animateInvalidSwap(swap) {
                 self.view.userInteractionEnabled = true
             }
          //   view.userInteractionEnabled = true
         }
+    }
+    
+    func handleMatches() {
+        let chains = level.removeMatches()
+        // TODO: do something with the chains set
     }
        
 }
