@@ -65,6 +65,10 @@ class GameViewController: UIViewController {
     
     func handleMatches() {
         let chains = level.removeMatches()
+        if chains.count == 0 {
+            beginNextTurn()
+            return
+        }
         // TODO: do something with the chains set
         scene.animateMatchedCookies(chains) {
             // self.view.userInteractionEnabled = true
@@ -72,10 +76,15 @@ class GameViewController: UIViewController {
             self.scene.animateFallingCookies(columns) {
                 let columns = self.level.topUpCookies()
                 self.scene.animateNewCookies(columns){
-                    self.view.userInteractionEnabled = true
+                    self.handleMatches()
                 }
             }
         }
     }
-       
+    
+    func beginNextTurn() {
+        level.detectPossibleSwaps()
+        view.userInteractionEnabled = true
+    }
+
 }
