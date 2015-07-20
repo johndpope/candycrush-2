@@ -8,6 +8,8 @@
 
 class Chain: Hashable, Printable {
     var cookies = [Cookie]()
+    var score = 0
+
     
     enum ChainType: Printable {
         case Horizontal
@@ -50,6 +52,9 @@ class Chain: Hashable, Printable {
     var hashValue: Int {
         return reduce(cookies, 0) { $0.hashValue ^ $1.hashValue }
     }
+    
+
+    
 }
 
 func ==(lhs: Chain, rhs: Chain) -> Bool {
