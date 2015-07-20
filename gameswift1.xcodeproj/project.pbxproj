@@ -15,6 +15,7 @@
 		6E03F3511B3850F600BB2154 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E03F34F1B3850F600BB2154 /* LaunchScreen.xib */; };
 		6E03F35D1B3850F600BB2154 /* gameswift1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03F35C1B3850F600BB2154 /* gameswift1Tests.swift */; };
 		6E3195321B547CBA00A6DA1B /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3195311B547CBA00A6DA1B /* Chain.swift */; };
+		6EC05BBE1B5D505800811392 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6EC05BBD1B5D505800811392 /* Grid.atlas */; };
 		6EDD4EA21B3FD5AF00A30393 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */; };
 		6EDD4EA41B3FDF1D00A30393 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD4EA31B3FDF1D00A30393 /* Cookie.swift */; };
 		6EDD4EA61B401F9B00A30393 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD4EA51B401F9B00A30393 /* Array2D.swift */; };
@@ -58,6 +59,7 @@
 		6E03F35B1B3850F600BB2154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E03F35C1B3850F600BB2154 /* gameswift1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameswift1Tests.swift; sourceTree = "<group>"; };
 		6E3195311B547CBA00A6DA1B /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		6EC05BBD1B5D505800811392 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		6EDD4EA31B3FDF1D00A30393 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		6EDD4EA51B401F9B00A30393 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		6E03F33F1B3850F600BB2154 /* gameswift1 */ = {
 			isa = PBXGroup;
 			children = (
+				6EC05BBD1B5D505800811392 /* Grid.atlas */,
 				6EDD4EA91B40442C00A30393 /* Levels */,
 				6EDD4EA11B3FD5AF00A30393 /* Sprites.atlas */,
 				6E03F3421B3850F600BB2154 /* AppDelegate.swift */,
@@ -271,6 +274,7 @@
 				6E03F3511B3850F600BB2154 /* LaunchScreen.xib in Resources */,
 				6EDE6A201B48E85C00BB9291 /* Drip.wav in Resources */,
 				6EDD4EB31B40442C00A30393 /* Level_4.json in Resources */,
+				6EC05BBE1B5D505800811392 /* Grid.atlas in Resources */,
 				6EDE6A211B48E85C00BB9291 /* Error.wav in Resources */,
 				6EDD4EB11B40442C00A30393 /* Level_2.json in Resources */,
 				6EDE6A241B48E85C00BB9291 /* Scrape.wav in Resources */,
