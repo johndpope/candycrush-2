@@ -47,6 +47,10 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="znw-9p-UD5">
+                                <rect key="frame" x="0.0" y="169" width="320" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="csG-cK-U5a">
                                 <rect key="frame" x="20" y="77" width="39" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +62,7 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="gameOverPanel" destination="znw-9p-UD5" id="ByL-qY-Fti"/>
                         <outlet property="movesLabel" destination="mdO-NH-q9V" id="fcM-Qt-W09"/>
                         <outlet property="scoreLabel" destination="HEh-Sz-zq5" id="gRV-aU-OFg"/>
                         <outlet property="targetLabel" destination="csG-cK-U5a" id="CKf-yz-Hem"/>
@@ -65,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162.66666666666666" y="198.80000000000001"/>
+            <point key="canvasLocation" x="162" y="198"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
