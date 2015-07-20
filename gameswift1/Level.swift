@@ -12,6 +12,9 @@ let NumColumns = 9
 let NumRows = 9
 
 class Level {
+    var targetScore = 0
+    var maximumMoves = 0
+    
     private var cookies = Array2D<Cookie>(columns: NumColumns, rows: NumRows)
     private var tiles = Array2D<Tile>(columns: NumColumns, rows: NumRows)
     private var possibleSwaps = Set<Swap>()
@@ -127,7 +130,10 @@ class Level {
                         }
                     }
                 }
+               
             }
+            targetScore = dictionary["targetScore"] as! Int
+            maximumMoves = dictionary["moves"] as! Int
         }
     }
     
